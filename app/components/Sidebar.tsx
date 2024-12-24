@@ -10,8 +10,9 @@ const navigation = [
   { name: 'Abstract', href: '#abstract' },
   { name: 'Core Components', href: '#core-components' },
   { name: 'Motivation', href: '#motivation' },
-  { name: 'Protocol Architecture', href: '#architecture' },
+  { name: 'Protocol Architecture', href: '#protocol-architecture' },
   { name: 'Use Cases', href: '#use-cases' },
+  { name: 'Improvement Proposals', href: '#improvement-proposals' },
 ]
 
 export default function Sidebar() {

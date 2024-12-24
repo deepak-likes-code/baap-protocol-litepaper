@@ -1,6 +1,7 @@
 import Sidebar from './components/Sidebar'
 import Image from 'next/image'
 import { Separator } from "@/components/ui/separator"
+import { Github, Twitter } from "lucide-react"
 
 export default function Home() {
   return (
@@ -8,11 +9,31 @@ export default function Home() {
       <Sidebar />
       <div className="lg:pl-64">
         <header className="fixed top-0 right-0 left-0 lg:left-64 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b z-30">
-          <div className="p-4 lg:px-8">
-            <h1 className="text-xl lg:text-2xl font-semibold tracking-tight">
-              Blockchain Agnostic Agent Protocol (BAAP) Litepaper
-            </h1>
-            <p className="text-sm text-muted-foreground">Version: 1.0 Public Draft</p>
+          <div className="p-4 lg:px-8 flex justify-between items-center">
+            <div>
+              <h1 className="text-xl lg:text-2xl font-semibold tracking-tight">
+                Blockchain Agnostic Agent Protocol (BAAP) Litepaper
+              </h1>
+              <p className="text-sm text-muted-foreground">Version: 0.1 Public Draft</p>
+            </div>
+            <div className="flex items-center space-x-4">
+              <a
+                href="https://github.com/baap-protocol"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Github className="h-5 w-5" />
+              </a>
+              <a
+                href="https://x.com/BAAP_protocol"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Twitter className="h-5 w-5" />
+              </a>
+            </div>
           </div>
         </header>
         
@@ -29,7 +50,7 @@ export default function Home() {
             <Separator />
             <div className="space-y-4">
               <Image
-                src="/placeholder.svg?height=300&width=600"
+                src="/images/protocol.png"
                 alt="BAAP Overview"
                 width={600}
                 height={300}
@@ -526,6 +547,32 @@ export default function Home() {
 
           {/* Add remaining sections following the same pattern */}
         </main>
+
+        <footer className="border-t mt-16">
+          <div className="max-w-4xl mx-auto p-4 lg:p-8">
+            <div className="flex flex-col items-center justify-center space-y-4">
+              <p className="text-sm text-muted-foreground">BAAP Litepaper - Draft 0.1</p>
+              <div className="flex space-x-4">
+                <a
+                  href="https://github.com/baap-protocol"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://t.me/baapprotocol"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Telegram
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   )
