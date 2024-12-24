@@ -73,7 +73,7 @@ export default function Home() {
                 The protocol enables the creation of agent swarms that work together seamlessly, abstracting away the underlying complexity of blockchain interactions. This allows developers to build more sophisticated and user-friendly applications while enabling users to interact with multiple blockchain networks and protocols through a standardized, simplified interface.
               </p>
               <p className="text-sm lg:text-base leading-relaxed">
-                By establishing common standards for agent communication, identity, and coordination, BAAP creates a foundation for a more accessible and interoperable blockchain ecosystem. The protocol's agent-centric architecture ensures scalability and extensibility, allowing for the continuous integration of new chains, protocols, and capabilities while maintaining a consistent user experience.
+                By establishing common standards for agent communication, identity, and coordination, BAAP creates a foundation for a more accessible and interoperable blockchain ecosystem. The protocol&apos;s agent-centric architecture ensures scalability and extensibility, allowing for the continuous integration of new chains, protocols, and capabilities while maintaining a consistent user experience.
               </p>
             </div>
           </section>
@@ -90,7 +90,7 @@ export default function Home() {
               <div className="space-y-4">
                 <h3 className="font-semibold text-lg">1. Global State Management</h3>
                 <p className="text-sm lg:text-base leading-relaxed">
-                  The backbone of BAAP's swarm intelligence, enabling agents to maintain a unified view of operations across multiple blockchains. This system ensures all agents work with consistent, up-to-date information while handling complex cross-chain operations.
+                  The backbone of BAAP&apos;s swarm intelligence, enabling agents to maintain a unified view of operations across multiple blockchains. This system ensures all agents work with consistent, up-to-date information while handling complex cross-chain operations.
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li className="text-sm lg:text-base">
@@ -368,7 +368,7 @@ export default function Home() {
                   <div>
                     <h4 className="font-medium">Resource Optimization</h4>
                     <p className="text-sm lg:text-base leading-relaxed mt-2">
-                      Through intelligent agent coordination, BAAP enables efficient allocation of liquidity across chains and protocols. The protocol's automated yield optimization capabilities ensure capital is deployed effectively throughout the ecosystem.
+                      Through intelligent agent coordination, BAAP enables efficient allocation of liquidity across chains and protocols. The protocol&apos;s automated yield optimization capabilities ensure capital is deployed effectively throughout the ecosystem.
                     </p>
                   </div>
                 </div>
@@ -380,7 +380,7 @@ export default function Home() {
             <div>
               <h2 className="text-lg lg:text-xl font-semibold tracking-tight scroll-m-20">Protocol Architecture</h2>
               <p className="text-sm text-muted-foreground">
-                The layered approach of BAAP's architecture.
+                The layered approach of BAAP&apos;s architecture.
               </p>
             </div>
             <Separator />
@@ -456,12 +456,12 @@ export default function Home() {
                 <p className="text-sm lg:text-base leading-relaxed mt-2">
                   In the fragmented world of DeFi, opportunities and yields vary significantly across different chains and protocols. BAAP enables sophisticated yield optimization strategies that were previously impractical or impossible to execute.</p>
                 <p className="text-sm lg:text-base leading-relaxed mt-2">
-                  For example, when Solana's Marinade protocol offers higher staking yields than Ethereum's Lido, BAAP can automatically detect this opportunity, unstake from Lido, bridge assets to Solana, and stake in Marinade – all through a single instruction.
+                  When Solana&apos;s Marinade protocol offers higher staking yields than Ethereum&apos;s Lido, BAAP can automatically detect this opportunity, unstake from Lido, bridge assets to Solana, and stake in Marinade – all through a single instruction.
                 </p>
 
                 <h3 className="font-semibold text-lg mt-6">NFT Market Aggregation</h3>
                 <p className="text-sm lg:text-base leading-relaxed mt-2">
-                  The NFT ecosystem is particularly fragmented, with collections and marketplaces spread across multiple chains. BAAP's architecture enables unified NFT trading experiences across all major chains. A trader looking for the best deal on a specific NFT can have BAAP agents simultaneously monitor listings across Ethereum's OpenSea, Solana's Magic Eden, and other marketplaces.
+                  The NFT ecosystem is particularly fragmented, with collections and marketplaces spread across multiple chains. BAAP&apos;s architecture enables unified NFT trading experiences across all major chains. A trader looking for the best deal on a specific NFT can have BAAP agents simultaneously monitor listings across Ethereum&apos;s OpenSea, Solana&apos;s Magic Eden, and other marketplaces.
                 </p>
 
                 <h3 className="font-semibold text-lg mt-6">Cross-Chain Governance</h3>
@@ -471,7 +471,7 @@ export default function Home() {
 
                 <h3 className="font-semibold text-lg mt-6">Liquidity Management</h3>
                 <p className="text-sm lg:text-base leading-relaxed mt-2">
-                  Professional market makers and liquidity providers face significant challenges in managing positions across multiple DEXs and chains. BAAP's architecture enables sophisticated liquidity management strategies through coordinated agent actions.
+                  Professional market makers and liquidity providers face significant challenges in managing positions across multiple DEXs and chains. BAAP&apos;s architecture enables sophisticated liquidity management strategies through coordinated agent actions.
                 </p>
 
                 <h3 className="font-semibold text-lg mt-6">Additional Applications</h3>
